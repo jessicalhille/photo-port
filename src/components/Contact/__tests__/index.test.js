@@ -7,13 +7,13 @@ afterEach(cleanup)
 
 describe('Contact component renders', () => {
     it('renders', () => {
-    render(<Contact />);
-});
+        render(<Contact />);
+    })
 
-it('renders', () => {
-    const { asFragment } = render(<Contact />)
-    expect(asFragment()).toMatchSnapshot()
-  })
+    it('renders', () => {
+        const { asFragment } = render(<Contact />)
+        expect(asFragment()).toMatchSnapshot()
+    })
 })
 
 
